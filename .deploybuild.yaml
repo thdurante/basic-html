@@ -1,0 +1,7 @@
+build_languages:
+    - name: "php"
+    version: "8.3"
+build_commands:
+    - description: "Composer Install"
+    command: "COMPOSER_MEMORY_LIMIT=-1 composer install --no-progress --optimize-autoloader"
+    halt_on_error: true
